@@ -5,7 +5,16 @@
 </head>
 <body>
     <script>
-        
+        const val = [54,76,200,40]
+        let largest=val[0]
+        for (const num of val)
+        {
+            if(num>largest)
+            {
+                largest=num
+            }
+        }
+        document.write( "The largest number of array :"+largest)
     </script>
 </body>
 </html>
