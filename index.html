@@ -17,7 +17,7 @@
                 largest = num
             }
         }
-        document.writeln("The largest number of array :" + largest)
+        document.write("The largest number of array :" + largest+"<br/><br/>")
         
         //2nd program
         const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -29,7 +29,14 @@
                 sum += numbers[i]
             }
         }
-        document.writeln(`Sum of odd numbers: ${sum}`)
+        document.write(`Sum of odd numbers: ${sum}`+"<br/><br/>")
+
+        //3rd program
+        const friends = ["Madhu","Hrushi","Shantu","Khushi"];
+        for (let i=0; i<friends.length; i++)
+        {
+            document.write(`Hello ${friends [i]}`+"<br/>");
+        }     
     </script>
 </body>
 
