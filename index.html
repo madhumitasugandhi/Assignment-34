@@ -1,20 +1,36 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-   <title>Programs on Array</title>
+    <title>Programs on Array</title>
 </head>
+
 <body>
     <script>
-        const val = [54,76,200,40]
-        let largest=val[0]
-        for (const num of val)
+        //1st program
+        const val = [54, 76, 200, 40]
+        let largest = val[0]
+        for (const num of val) 
         {
-            if(num>largest)
+            if (num > largest) 
             {
-                largest=num
+                largest = num
             }
         }
-        document.write( "The largest number of array :"+largest)
+        document.writeln("The largest number of array :" + largest)
+        
+        //2nd program
+        const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        let sum = 0
+        for (let i = 0; i < numbers.length; i++) 
+        {
+            if (numbers[i] % 2 == 1) 
+            {
+                sum += numbers[i]
+            }
+        }
+        document.writeln(`Sum of odd numbers: ${sum}`)
     </script>
 </body>
+
 </html>
